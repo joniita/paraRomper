@@ -102,7 +102,7 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover{
-    box-shadow: 0px 0px 2px grey;
+    box-shadow: 0px 0px 2px red;
 }
 
 input[type="button"]:active,
@@ -177,12 +177,12 @@ a:hover{
 
 #nav{
     width: 100%;
-    height: 40px;
+    height: 60px;
     background-color: #333333;
     color: white;
     font-family: sans-serif, Helvetica, Arial;
     font-size: 14px;
-    box-shadow: 0px 0px 2px gray;
+    box-shadow: 0px 0px 2px red;
 }
 
 #nav ul{
@@ -314,7 +314,7 @@ a:hover{
 }
 
 .red{
-    color:#9b2422 !important;
+    color: green !important;
 }
 
 .orange{
