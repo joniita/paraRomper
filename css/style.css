@@ -235,7 +235,7 @@ a:hover{
 
 #nav > ul > li a {
     display: block;
-    color: white;
+    color: black;
     padding-left: 20px;
     padding-right: 20px;
 }
