@@ -366,6 +366,7 @@ a:hover{
     width: 75%;
     font-family: sans-serif,Arial, Helvetica;
     margin-right: 20px;
+    background-color: lightsalmon;
 }
 
 #sections .titulo{
