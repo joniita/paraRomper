@@ -6,12 +6,23 @@ if (typeof(Storage) !== "undefined") {
 }
 
 // Creo una constante con un objeto para guardar el valor de la sesion.login en booleano
-const sesion = {login: true};
+const sesion = {login: false};
 
 // guardo el valor de la sesion en el Local Storage convirtiendolo en texto antes
 localStorage.setItem("sesionIniciada", JSON.stringify(sesion))
 
+// recupero la informacion del Local Storage convirtiendolo en un objeto
+let sesionGuardada = JSON.parse(localStorage.getItem("sesionIniciada"));
 
+console.log(sesionGuardada.login);
+
+
+// Compruebo si la sesion esta iniciada o no
+if (sesionGuardada.login === true) {
+    console.log("sesion iniciada");
+} else {
+    console.log("necesitas iniciar sesion");
+}
 
 
 
