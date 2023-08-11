@@ -1,4 +1,10 @@
 
+if (typeof(Storage) !== "undefined") {
+    console.log("Storage disponible");
+} else {
+    console.log("Storage no disponible");
+}
+
 
 const URL = "https://japceibal.github.io/emercado-api/cats_products/101.json";
 
