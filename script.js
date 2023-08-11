@@ -5,7 +5,7 @@ if (typeof(Storage) !== "undefined") {
     console.log("Storage no disponible");
 }
 
-// Creo una variable para guardar el valor de la sesion en booleano
+// Creo una constante con un objeto para guardar el valor de la sesion.login en booleano
 const sesion = {login: true};
 
 // guardo el valor de la sesion en el Local Storage convirtiendolo en texto antes
