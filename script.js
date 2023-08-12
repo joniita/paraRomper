@@ -29,6 +29,24 @@ if (sesionGuardada.login === true) {
 
 
 
+//Extraigo dos botones del DOM para recrear los botones de "Iniciar sesion" y "Cerrar sesion" y agrego escuchadores de eventos evitando que recargue la pagina
+
+const botonEntrar = document.getElementById("botonEntrar");
+const botonSalir = document.getElementById("botonSalir");
+
+botonEntrar.addEventListener("click", function(event){
+    event.preventDefault();
+    console.log("sesion iniciada");
+})
+
+botonSalir.addEventListener("click", function(event){
+    event.preventDefault();
+    console.log("sesion finalizada");
+})
+
+
+
+
 // Fetch
 const URL = "https://japceibal.github.io/emercado-api/cats_products/101.json";
 
