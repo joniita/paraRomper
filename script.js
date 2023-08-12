@@ -48,9 +48,10 @@ if (sesionGuardada.login === true) {
 
 
 
-// Fetch
+// URL de la api con su endpoint
  const URL = "https://japceibal.github.io/emercado-api/cats_products/101.json";
 
+ // Funcion para recorrer un objeto y generar una plantilla HTML agregando valores del objeto
  function showData(dataArray) {
      dataArray.map(i => {
          //console.log(i);
@@ -58,6 +59,7 @@ if (sesionGuardada.login === true) {
      })
  }
 
+ // Fetch
  fetch(URL)
      .then(response => response.json())
      .then(data => showData(data.products));
