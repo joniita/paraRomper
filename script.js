@@ -47,7 +47,6 @@ if (sesionGuardada.login === true) {
 
 
 
-
 // URL de la api con su endpoint
  const URL = "https://japceibal.github.io/emercado-api/cats_products/101.json";
 
